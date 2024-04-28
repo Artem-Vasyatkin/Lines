@@ -24,5 +24,25 @@ public class Main {
         } else {
             System.out.println("Неудача");
         }
+        System.out.println("Homework");
+        System.out.println("Task №1\n");
+
+
+        String firstName = "Ivanov";
+        String middleName = "Ivan";
+        String lastName = "Ivanovich.";
+        String fullName = firstName + " " + middleName + " " + lastName;
+        System.out.printf("Ф. И. О. сотрудника — %s\n", fullName);
+
+        System.out.println("Task №2\n");
+
+        System.out.printf("Данные Ф. И. О. сотрудника для заполнения отчета — %s\n",
+                fullName.toUpperCase());
+
+        System.out.println("Task №3\n");
+
+        String twoFullName2 = "Иванов Семён Семёнович";
+        twoFullName2 = twoFullName2.replace("ё", "е");
+        System.out.printf("Данные Ф. И. О. сотрудника — %s", twoFullName2);
     }
 }
